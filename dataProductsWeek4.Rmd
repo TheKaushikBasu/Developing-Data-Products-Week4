@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Application
 
- - The second part of the assignment was to develop a web application. The application is named ***Fuel Consumption Prediction***. An instance of this application is up & running at <https://kaushikbasu.shinyapps.io/data-products-week-4-project/>.
+ - The second part of the assignment was to develop a web application. The application is named ***Fuel Consumption Prediction***. An instance of this application is up & running at <https://kaushikbasu.shinyapps.io/dataProductsWeek4/>.
  
 
  - This application shows an example of making a web application using R and [Shiny](https://shiny.rstudio.com) framework together.
