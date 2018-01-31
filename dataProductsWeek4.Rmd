@@ -1,6 +1,6 @@
 ---
-title: Developing Data Products - Assignment Week 4 - Shiny Application and
-  Reproducible Pitch
+title: Developing Data Products - Assignment Week 4 - Shiny Application and Reproducible
+  Pitch
 author: "Kaushik Basu"
 date: "December 27, 2017"
 output: slidy_presentation
@@ -21,14 +21,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Application
 
- - The second part of the assignment was to develop a web application. The application is named ***Fuel Consumption Prediction***. An instance of this application is up & running at <https://kaushikbasu.shinyapps.io/dataProductsWeek4/>.
+ - In second part of assignment a web application for ***Fuel Consumption Prediction*** is developed using R and [Shiny](https://shiny.rstudio.com) framework together. An instance of this application is up & running at <https://kaushikbasu.shinyapps.io/dataProductsWeek4/>.
  
-
- - This application shows an example of making a web application using R and [Shiny](https://shiny.rstudio.com) framework together.
+ - In this application a prediction model is generated based on car parameters dataset (HP, weight, gears, etc.). The UI values can be modified to simulate parameters of a hypothetical car and predict its MPG consumption.
  
- - In this application a prediction model is generated based on car parameters dataset (HP, weight, gears, etc.). Then, a user can play freely with the UI values to simulate parameters of a hypothetical car and predict its MPG consumption.
- 
- - The application and the current presentation source codes can be found at <https://github.com/TheKaushikBasu/Developing-Data-Products-Week4>. The application comprises 3 files: *ui.R* (UI), *server.R* (backend) and *buildRandomForestModel.R* (Random Forest predictor).
+ - Source codes for the application and current presentation can be found at <https://github.com/TheKaushikBasu/Developing-Data-Products-Week4>. The application has 3 files: *ui.R* (UI), *server.R* (backend) and *buildRandomForestModel.R* (Random Forest predictor).
   
 ## Dataset
 
